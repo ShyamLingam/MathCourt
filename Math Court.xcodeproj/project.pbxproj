@@ -14,6 +14,7 @@
 		526B63481EB0C35F00A76CE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526B63461EB0C35F00A76CE6 /* LaunchScreen.storyboard */; };
 		526B63531EB0C35F00A76CE6 /* Math_CourtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B63521EB0C35F00A76CE6 /* Math_CourtTests.swift */; };
 		526B635E1EB0C35F00A76CE6 /* Math_CourtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B635D1EB0C35F00A76CE6 /* Math_CourtUITests.swift */; };
+		526B636C1EB0C5D800A76CE6 /* Court.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526B636B1EB0C5D800A76CE6 /* Court.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		526B63591EB0C35F00A76CE6 /* Math CourtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Math CourtUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		526B635D1EB0C35F00A76CE6 /* Math_CourtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math_CourtUITests.swift; sourceTree = "<group>"; };
 		526B635F1EB0C35F00A76CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526B636B1EB0C5D800A76CE6 /* Court.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Court.jpg; path = "../../../MAths Court/Court.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				526B63441EB0C35F00A76CE6 /* Assets.xcassets */,
 				526B63461EB0C35F00A76CE6 /* LaunchScreen.storyboard */,
 				526B63491EB0C35F00A76CE6 /* Info.plist */,
+				526B636B1EB0C5D800A76CE6 /* Court.jpg */,
 			);
 			path = "Math Court";
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				526B63481EB0C35F00A76CE6 /* LaunchScreen.storyboard in Resources */,
+				526B636C1EB0C5D800A76CE6 /* Court.jpg in Resources */,
 				526B63451EB0C35F00A76CE6 /* Assets.xcassets in Resources */,
 				526B63431EB0C35F00A76CE6 /* Main.storyboard in Resources */,
 			);
