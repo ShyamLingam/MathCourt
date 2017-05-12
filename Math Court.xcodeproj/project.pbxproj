@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5209C1591EC5C65500B31525 /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 5209C1581EC5C65500B31525 /* basketball.png */; };
+		5209C15B1EC5C7B500B31525 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 5209C15A1EC5C7B500B31525 /* ball.png */; };
 		526B633E1EB0C35F00A76CE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B633D1EB0C35F00A76CE6 /* AppDelegate.swift */; };
 		526B63401EB0C35F00A76CE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B633F1EB0C35F00A76CE6 /* ViewController.swift */; };
 		526B63431EB0C35F00A76CE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526B63411EB0C35F00A76CE6 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5209C1581EC5C65500B31525 /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basketball.png; path = "../../../MAths Court/basketball.png"; sourceTree = "<group>"; };
+		5209C15A1EC5C7B500B31525 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = "../../../MAths Court/ball.png"; sourceTree = "<group>"; };
 		526B633A1EB0C35F00A76CE6 /* Math Court.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Math Court.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		526B633D1EB0C35F00A76CE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		526B633F1EB0C35F00A76CE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,7 +109,9 @@
 				526B63441EB0C35F00A76CE6 /* Assets.xcassets */,
 				526B63461EB0C35F00A76CE6 /* LaunchScreen.storyboard */,
 				526B63491EB0C35F00A76CE6 /* Info.plist */,
+				5209C1581EC5C65500B31525 /* basketball.png */,
 				526B636B1EB0C5D800A76CE6 /* Court.jpg */,
+				5209C15A1EC5C7B500B31525 /* ball.png */,
 			);
 			path = "Math Court";
 			sourceTree = "<group>";
@@ -240,8 +246,10 @@
 			files = (
 				526B63481EB0C35F00A76CE6 /* LaunchScreen.storyboard in Resources */,
 				526B636C1EB0C5D800A76CE6 /* Court.jpg in Resources */,
+				5209C15B1EC5C7B500B31525 /* ball.png in Resources */,
 				526B63451EB0C35F00A76CE6 /* Assets.xcassets in Resources */,
 				526B63431EB0C35F00A76CE6 /* Main.storyboard in Resources */,
+				5209C1591EC5C65500B31525 /* basketball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +528,7 @@
 				526B63641EB0C35F00A76CE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		526B63651EB0C35F00A76CE6 /* Build configuration list for PBXNativeTarget "Math CourtTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +537,7 @@
 				526B63671EB0C35F00A76CE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		526B63681EB0C35F00A76CE6 /* Build configuration list for PBXNativeTarget "Math CourtUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +546,7 @@
 				526B636A1EB0C35F00A76CE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
