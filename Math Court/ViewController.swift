@@ -12,6 +12,8 @@ import AudioToolbox
 
 class ViewController: UIViewController {
     
+    // Audio Player On/Off Feature to control Background Music
+    
     var player:AVAudioPlayer = AVAudioPlayer()
 
     
@@ -23,7 +25,7 @@ class ViewController: UIViewController {
         player.stop()
     }
     
-    
+    // Game Tip Label Feature
     
     @IBOutlet var Label: UILabel!
 
@@ -52,7 +54,7 @@ class ViewController: UIViewController {
         
     }
     
-        //Code Step for Background Music
+        //Code  for Background Music
     
 
     override func didReceiveMemoryWarning() {

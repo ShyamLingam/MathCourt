@@ -10,6 +10,7 @@ import UIKit
 
 class MultiPlayer: UIViewController {
     
+    //Question  Answer Selection
     
     @IBOutlet var LabelP1: UILabel!
     

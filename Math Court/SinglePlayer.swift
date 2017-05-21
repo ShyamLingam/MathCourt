@@ -10,6 +10,7 @@ import UIKit
 
 class SinglePlayer: UIViewController {
     
+    //Question 1 Answer Selection
    
     @IBOutlet var label: UILabel!
     
@@ -30,7 +31,7 @@ class SinglePlayer: UIViewController {
             label.text = "Incorrect!!! Try Again"
     }
 
-    
+     //Question 2 Answer Selection
    
     @IBOutlet var label2: UILabel!
     
@@ -47,6 +48,8 @@ class SinglePlayer: UIViewController {
     {
         label2.text = "Incorrect!!! Try Again"
     }
+    
+    //Question 3 Answer Selection
     
     @IBOutlet var label3: UILabel!
     
