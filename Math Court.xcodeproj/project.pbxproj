@@ -11,6 +11,7 @@
 		5209C15B1EC5C7B500B31525 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 5209C15A1EC5C7B500B31525 /* ball.png */; };
 		5209C15F1EC5D12900B31525 /* b song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5209C15E1EC5D12900B31525 /* b song.mp3 */; };
 		520C5B991ED156ED0052CD94 /* SinglePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C5B981ED156ED0052CD94 /* SinglePlayer.swift */; };
+		520C5B9B1ED162240052CD94 /* MultiPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C5B9A1ED162240052CD94 /* MultiPlayer.swift */; };
 		526B633E1EB0C35F00A76CE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B633D1EB0C35F00A76CE6 /* AppDelegate.swift */; };
 		526B63401EB0C35F00A76CE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B633F1EB0C35F00A76CE6 /* ViewController.swift */; };
 		526B63431EB0C35F00A76CE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526B63411EB0C35F00A76CE6 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		5209C15A1EC5C7B500B31525 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = "../../../MAths Court/ball.png"; sourceTree = "<group>"; };
 		5209C15E1EC5D12900B31525 /* b song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "b song.mp3"; path = "../../../../Downloads/b song.mp3"; sourceTree = "<group>"; };
 		520C5B981ED156ED0052CD94 /* SinglePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglePlayer.swift; sourceTree = "<group>"; };
+		520C5B9A1ED162240052CD94 /* MultiPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPlayer.swift; sourceTree = "<group>"; };
 		526B633A1EB0C35F00A76CE6 /* Math Court.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Math Court.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		526B633D1EB0C35F00A76CE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		526B633F1EB0C35F00A76CE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				526B633D1EB0C35F00A76CE6 /* AppDelegate.swift */,
 				526B633F1EB0C35F00A76CE6 /* ViewController.swift */,
 				520C5B981ED156ED0052CD94 /* SinglePlayer.swift */,
+				520C5B9A1ED162240052CD94 /* MultiPlayer.swift */,
 				526B63411EB0C35F00A76CE6 /* Main.storyboard */,
 				526B63441EB0C35F00A76CE6 /* Assets.xcassets */,
 				526B63461EB0C35F00A76CE6 /* LaunchScreen.storyboard */,
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520C5B9B1ED162240052CD94 /* MultiPlayer.swift in Sources */,
 				526B63401EB0C35F00A76CE6 /* ViewController.swift in Sources */,
 				526B633E1EB0C35F00A76CE6 /* AppDelegate.swift in Sources */,
 				520C5B991ED156ED0052CD94 /* SinglePlayer.swift in Sources */,
