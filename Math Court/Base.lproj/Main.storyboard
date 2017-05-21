@@ -251,7 +251,7 @@
         <!--View Controller-->
         <scene sceneID="bvN-Qm-msv">
             <objects>
-                <viewController id="PSf-3S-K0s" sceneMemberID="viewController">
+                <viewController id="PSf-3S-K0s" customClass="ViewController" customModule="Math_Court" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Etg-U8-o8C"/>
                         <viewControllerLayoutGuide type="bottom" id="5SB-Xp-MGQ"/>
@@ -293,16 +293,12 @@
                                     <segue destination="BYZ-38-t0r" kind="modal" id="y8S-EE-f9p"/>
                                 </connections>
                             </button>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pht-mG-oe3">
-                                <rect key="frame" x="263" y="281" width="51" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="prD-GK-2PA">
                                 <rect key="frame" x="263" y="207" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PiQ-nP-qEb">
-                                <rect key="frame" x="263" y="367" width="51" height="31"/>
+                                <rect key="frame" x="263" y="370" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Game Sounds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbv-Ig-wpA">
@@ -327,6 +323,29 @@
                                 <state key="normal" title="Default Settings">
                                     <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYY-6Z-ZEW">
+                                <rect key="frame" x="263" y="281" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="ON">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="play:" destination="PSf-3S-K0s" eventType="touchUpInside" id="073-ig-Zmz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Oi-EJ-Mlv">
+                                <rect key="frame" x="301" y="282" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="OFF">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="play:" destination="PSf-3S-K0s" eventType="touchUpInside" id="xGw-oz-dUN"/>
+                                    <action selector="stop:" destination="PSf-3S-K0s" eventType="touchUpInside" id="lkj-uh-1HQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -467,6 +486,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="A9T-CS-Bwq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g94-ko-imD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -478,6 +498,6 @@
         <image name="ball.png" width="165" height="158"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1dP-Rr-10p"/>
+        <segue reference="y8S-EE-f9p"/>
     </inferredMetricsTieBreakers>
 </document>
