@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import AudioToolbox
 
 class ViewController: UIViewController {
     
@@ -21,8 +22,21 @@ class ViewController: UIViewController {
     @IBAction func stop(_ sender: Any) {
         player.stop()
     }
-  
+    
+    
+    
+    @IBOutlet var Label: UILabel!
 
+    @IBAction func LabalOn(_ sender: Any)
+    {
+        Label.text = "Tip: Use Calculator"
+    }
+    
+    
+    @IBAction func LabelOff(_ sender: Any)
+    {
+        Label.text = ""
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
        
@@ -39,6 +53,8 @@ class ViewController: UIViewController {
     }
     
         //Code Step for Background Music
+    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
