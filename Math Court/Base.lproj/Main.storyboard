@@ -167,10 +167,10 @@
             </objects>
             <point key="canvasLocation" x="832.79999999999995" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--Single Player-->
         <scene sceneID="hwh-C3-Kkc">
             <objects>
-                <viewController id="NPV-5l-TbE" customClass="ViewController" customModule="Math_Court" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NPV-5l-TbE" customClass="SinglePlayer" customModule="Math_Court" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gpc-ZA-Cnt"/>
                         <viewControllerLayoutGuide type="bottom" id="Kup-dK-jaC"/>
@@ -183,10 +183,20 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="639"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Single Player" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1w-gf-un2">
+                                <rect key="frame" x="0.0" y="19" width="278" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gE-j3-udb">
                                 <rect key="frame" x="243" y="270" width="96" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="ball.png"/>
+                                <connections>
+                                    <action selector="A3:" destination="NPV-5l-TbE" eventType="touchUpInside" id="bAE-KV-VJc"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="24" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1b-cV-xsg">
                                 <rect key="frame" x="281" y="289" width="21" height="21"/>
@@ -199,6 +209,9 @@
                                 <rect key="frame" x="139" y="230" width="96" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="ball.png"/>
+                                <connections>
+                                    <action selector="A2:" destination="NPV-5l-TbE" eventType="touchUpInside" id="h77-DL-bZ6"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="58" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4f-FZ-HQ2">
                                 <rect key="frame" x="177" y="254" width="21" height="21"/>
@@ -211,6 +224,9 @@
                                 <rect key="frame" x="35" y="270" width="96" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="ball.png"/>
+                                <connections>
+                                    <action selector="A1:" destination="NPV-5l-TbE" eventType="touchUpInside" id="0IB-z0-h3m"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="48" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXA-Kw-Jui">
                                 <rect key="frame" x="73" y="294" width="22" height="21"/>
@@ -240,9 +256,19 @@
                                     <segue destination="BYZ-38-t0r" kind="modal" id="1dP-Rr-10p"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N8d-yG-AzA">
+                                <rect key="frame" x="21" y="130" width="333" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="N8d-yG-AzA" id="fGZ-Wg-Fd5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C8l-xi-pMt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -513,6 +539,6 @@
         <image name="ball.png" width="165" height="158"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="y8S-EE-f9p"/>
+        <segue reference="1dP-Rr-10p"/>
     </inferredMetricsTieBreakers>
 </document>
