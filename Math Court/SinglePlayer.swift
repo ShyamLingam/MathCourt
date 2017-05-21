@@ -30,7 +30,40 @@ class SinglePlayer: UIViewController {
             label.text = "Incorrect!!! Try Again"
     }
 
-    override func viewDidLoad() {
+    
+   
+    @IBOutlet var label2: UILabel!
+    
+    @IBAction func A4(_ sender: Any)
+    {
+        label2.text = "Incorrect!!! Try Again"
+    }
+    
+    @IBAction func A5(_ sender: Any)
+        {
+            label2.text = "Correct Answer"
+        }
+    @IBAction func A6(_ sender: Any)
+    {
+        label2.text = "Incorrect!!! Try Again"
+    }
+    
+    @IBOutlet var label3: UILabel!
+    
+    @IBAction func A7(_ sender: Any)
+    {
+        label3.text = "Incorrect!!! Try Again"
+    }
+    @IBAction func A8(_ sender: Any)
+    {
+        label3.text = "Incorrect!!! Try Again"
+    }
+    
+    @IBAction func A9(_ sender: Any)
+    {
+      label3.text = "Correct Answer"
+    }
+    override func viewDidLoad(){
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
